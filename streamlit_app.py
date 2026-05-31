@@ -430,7 +430,7 @@ if page == "Overview":
     with col1:
         st.markdown(
             f'<div style="background:{LIGHT}; border-radius:12px; padding:1.2rem 1.5rem;">'
-            f'<b>Source:</b> UCI Machine Learning Repository — '
+            f'<b>Source:</b> UCI Machine Learning Repository '
             f'<em>Predict Students\' Dropout and Academic Success</em> (ID 697)<br>'
             f'<b>Institution:</b> Portuguese higher-education (single institution)<br>'
             f'<b>Target:</b> Graduate vs Dropout (binary classification)'
