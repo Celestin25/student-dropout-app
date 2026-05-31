@@ -875,7 +875,7 @@ elif page == "Live Prediction":
         st.markdown(cards_html, unsafe_allow_html=True)
 
         # ── PROBABILITY GAUGE BARS ───────────────────────────────────────────
-        st.markdown('<div class="sec-title">Graduation Probability — All Models</div>',
+        st.markdown('<div class="sec-title">Graduation Probability : All Models</div>',
                     unsafe_allow_html=True)
         fig, ax = plt.subplots(figsize=(9, 3))
         names_l = list(model_probs.keys())
