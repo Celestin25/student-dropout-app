@@ -432,7 +432,6 @@ if page == "Overview":
             f'<div style="background:{LIGHT}; border-radius:12px; padding:1.2rem 1.5rem;">'
             f'<b>Source:</b> UCI Machine Learning Repository — '
             f'<em>Predict Students\' Dropout and Academic Success</em> (ID 697)<br>'
-            f'<b>Reference:</b> Realinho et al. (2022), <em>Data</em>, 7(11), 146<br>'
             f'<b>Institution:</b> Portuguese higher-education (single institution)<br>'
             f'<b>Target:</b> Graduate vs Dropout (binary classification)'
             f'</div>',
