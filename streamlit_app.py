@@ -1,6 +1,5 @@
 """
-Student Dropout Prediction — Professional Streamlit Demo
-Academic Machine Learning Project · 2026
+Student Dropout Prediction 
 """
 
 import warnings
@@ -366,7 +365,7 @@ if page == "Overview":
     st.markdown(
         '<div class="page-hero">'
         '<h1>Student Dropout Prediction</h1>'
-        '<p>A complete machine learning pipeline — from raw data to actionable predictions</p>'
+        '<p>A complete machine learning pipeline from raw data to actionable predictions</p>'
         '</div>',
         unsafe_allow_html=True,
     )
@@ -405,14 +404,14 @@ if page == "Overview":
     # Methods grid
     st.markdown('<div class="sec-title">Pipeline Methods</div>', unsafe_allow_html=True)
     methods = [
-        ("01", "Recursive Feature Elimination", "RFE", "Lab 1 · Lab 3"),
-        ("02", "Principal Component Analysis",  "PCA", "Lab 2 · Lab 3"),
-        ("03", "t-SNE Visualisation",           "t-SNE", "Lab 5"),
-        ("04", "GLM Logistic Regression",        "statsmodels", "Lab 7"),
-        ("05", "Interaction Effects",            "LRT · AIC · BIC", "Lab 6"),
-        ("06", "CART Decision Tree",             "CV-tuned", "Session 7"),
-        ("07", "Random Forest",                  "Bagging · 200 trees", "Session 8"),
-        ("08", "Gradient Boosting",              "Sequential · Best AUC", "Session 8"),
+        ("01", "Recursive Feature Elimination", "RFE"),
+        ("02", "Principal Component Analysis",  "PCA"),
+        ("03", "t-SNE Visualisation",           "t-SNE"),
+        ("04", "GLM Logistic Regression",        "statsmodels"),
+        ("05", "Interaction Effects",            "LRT · AIC · BIC"),
+        ("06", "CART Decision Tree",             "CV-tuned", ),
+        ("07", "Random Forest",                  "Bagging · 200 trees"),
+        ("08", "Gradient Boosting",              "Sequential · Best AUC"),
     ]
     html = '<div class="method-grid">'
     for step, name, sub, lab in methods:
