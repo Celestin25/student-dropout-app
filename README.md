@@ -1,4 +1,4 @@
-# 🎓 Student Dropout Prediction
+#  Student Dropout Prediction
 
 **Final Project · Programming, Data Science & Statistics 2 · UM6P · 2026**
 **Instructor: Pr. Ikram Chairi**
@@ -10,7 +10,7 @@ using the UCI Student Dropout dataset (3,630 students, 36 features).
 
 ---
 
-## 🚀 Deploy on Streamlit Cloud (free, ~2 minutes)
+##  Deploy on Streamlit Cloud (free, ~2 minutes)
 
 ```bash
 # 1. Push this folder to a new GitHub repo
@@ -26,11 +26,11 @@ git push -u origin main
    - Repository: `YOUR_USERNAME/student-dropout-app`
    - Branch: `main`
    - Main file path: `streamlit_app.py`
-4. Click **Deploy** ✅
+4. Click **Deploy** 
 
 ---
 
-## 💻 Run locally
+## Run locally
 
 ```bash
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 📁 Files
+##  Files
 
 ```
 student-dropout-app/
@@ -52,6 +52,6 @@ student-dropout-app/
 
 ---
 
-## 👤 Author
+##  Author
 
-Celestin Hakorimana · celestinhakorimana25@gmail.com
+Celestin Hakorimana · 
