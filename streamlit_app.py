@@ -419,7 +419,7 @@ if page == "Overview":
         html += (f'<div class="method-card">'
                  f'<div class="mc-step">Step {step}</div>'
                  f'<div class="mc-name">{name}</div>'
-                 f'<div class="mc-lab">{sub} &nbsp;·&nbsp; {lab}</div>'
+                 f'<div class="mc-lab">{sub}</div>'
                  f'</div>')
     html += '</div>'
     st.markdown(html, unsafe_allow_html=True)
