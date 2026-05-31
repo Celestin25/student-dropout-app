@@ -366,7 +366,7 @@ if page == "Overview":
     st.markdown(
         '<div class="page-hero">'
         '<h1>Student Dropout Prediction</h1>'
-        '<p>A complete machine learning pipeline — from raw data to actionable predictions</p>'
+        '<p>A complete machine learning pipeline,from raw data to actionable predictions</p>'
         '</div>',
         unsafe_allow_html=True,
     )
